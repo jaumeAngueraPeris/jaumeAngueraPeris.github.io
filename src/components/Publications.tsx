@@ -10,14 +10,14 @@ const publications = [
     journal: "Physica A: Statistical Mechanics and its Applications",
     year: "2025",
     type: "Journal",
-    link: ""
+    link: "https://arxiv.org/pdf/2405.07371"
   },
   {
     title: "Blind Asynchronous Over-the-Air Federated Edge Learning",
     authors: "Saeed Razavikia, Jaume Anguera Peris",
-    journal: "Conference paper",
+    journal: "IEEE Globecom Workshops",
     year: "2022",
-    type: "IEEE Globecom Workshops",
+    type: "Conference paper",
     link: "https://ieeexplore.ieee.org/document/10008588"
   },
   {
