@@ -5,11 +5,19 @@ import { ExternalLink } from "lucide-react";
 
 const publications = [
   {
+    title: "Stochastic Modeling and Resource Dimensioning of Multi-Cell Edge Intelligent Systems",
+    authors: "Jaume Anguera Peris, Joakim Jaldén",
+    journal: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+    year: "2026",
+    type: "Journal (waiting to be accepted)",
+    link: ""
+  },
+  {
     title: "Extreme Distance Distributions of Poisson Voronoi Cells",
     authors: "Jaume Anguera Peris, Joakim Jaldén",
     journal: "Physica A: Statistical Mechanics and its Applications",
-    year: "2025",
-    type: "Journal",
+    year: "2026",
+    type: "Journal (waiting to be accepted)",
     link: "https://arxiv.org/pdf/2405.07371"
   },
   {
