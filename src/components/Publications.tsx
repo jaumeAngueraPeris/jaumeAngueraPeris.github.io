@@ -5,6 +5,14 @@ import { ExternalLink } from "lucide-react";
 
 const publications = [
   {
+    title: "Restless Multi-Process Multi-Armed Bandits with Applications to Self-Driving Microscopies ",
+    authors: "Jaume Anguera Peris, Songtao Cheng, Hanzhao Zhang, Wei Ouyang, Joakim Jaldén",
+    journal: "IEEE Transactions on Neural Networks and Learning Systems",
+    year: "2026",
+    type: "Journal (waiting to be accepted)",
+    link: ""
+  },
+  {
     title: "Stochastic Modeling and Resource Dimensioning of Multi-Cell Edge Intelligent Systems",
     authors: "Jaume Anguera Peris, Joakim Jaldén",
     journal: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
