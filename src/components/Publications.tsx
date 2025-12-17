@@ -73,7 +73,7 @@ const Publications = () => {
           </p>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-7">
           {publications.map((pub, index) => (
             <Card key={index} className="transition-all hover:shadow-md">
               <CardHeader>
