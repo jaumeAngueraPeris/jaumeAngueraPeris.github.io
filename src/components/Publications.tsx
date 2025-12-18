@@ -10,7 +10,7 @@ const publications = [
     journal: "IEEE Transactions on Neural Networks and Learning Systems",
     year: "2026",
     type: "Journal (waiting to be accepted)",
-    link: ""
+    link: "https://arxiv.org/abs/2512.14930"
   },
   {
     title: "Stochastic Modeling and Resource Dimensioning of Multi-Cell Edge Intelligent Systems",
