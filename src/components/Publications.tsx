@@ -25,8 +25,8 @@ const publications = [
     authors: "Jaume Anguera Peris, Joakim Jaldén",
     journal: "Physica A: Statistical Mechanics and its Applications",
     year: "2026",
-    type: "Journal (waiting to be accepted)",
-    link: "https://arxiv.org/pdf/2405.07371"
+    type: "Journal",
+    link: "https://doi.org/10.1016/j.physa.2026.131304"
   },
   {
     title: "Blind Asynchronous Over-the-Air Federated Edge Learning",
