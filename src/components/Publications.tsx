@@ -18,7 +18,7 @@ const publications = [
     journal: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
     year: "2026",
     type: "Journal (waiting to be accepted)",
-    link: ""
+    link: "http://arxiv.org/abs/2601.16848"
   },
   {
     title: "Extreme Distance Distributions of Poisson Voronoi Cells",
