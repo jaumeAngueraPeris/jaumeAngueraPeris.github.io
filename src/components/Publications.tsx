@@ -17,8 +17,8 @@ const publications = [
     authors: "Jaume Anguera Peris, Joakim Jaldén",
     journal: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
     year: "2026",
-    type: "Journal (waiting to be accepted)",
-    link: "http://arxiv.org/abs/2601.16848"
+    type: "Journal",
+    link: "https://dl.acm.org/doi/10.1145/3849089"
   },
   {
     title: "Extreme Distance Distributions of Poisson Voronoi Cells",
