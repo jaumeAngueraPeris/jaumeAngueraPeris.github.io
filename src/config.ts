@@ -2,7 +2,7 @@
 export const SITE_CONFIG = {
   name: "Jaume Anguera Peris",
   fullName: "Dr. Jaume Anguera Peris",
-  email: "jaumeap@kth.se",
+  email: "contact@jaumeap.com",
   linkedin: "https://linkedin.com/in/jaumeap",
   github: "https://github.com/",
   location: "Stockholm, Sweden",

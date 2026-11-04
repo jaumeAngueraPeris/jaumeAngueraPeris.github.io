@@ -41,9 +41,7 @@ const Contact = () => {
               <div>
                 <p className="font-medium text-foreground mb-1">Affiliation</p>
                 <p className="text-muted-foreground">
-                  {SITE_CONFIG.university}<br />
-                  School of {SITE_CONFIG.phd}<br />
-                  Department of {SITE_CONFIG.department}
+                  Solo entrepreneur, Researcher, and Consultant
                 </p>
               </div>
             </div>
