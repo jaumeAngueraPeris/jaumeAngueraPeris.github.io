@@ -18,7 +18,9 @@ const education = [
     institution: `${SITE_CONFIG.university}`,
     location: `${SITE_CONFIG.location}`,
     period: "2017 - 2019",
-    thesis: "Specialization: Information and Network Engineering"
+    specialization: "Specialization: Information and Network Engineering",
+    thesis: "Thesis: Deep learning for differential privacy and density estimation",
+    thesisLink: "https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1380754&dswid=9442"
   },
   {
     degree: "Bachelor of Science (BSc)",
@@ -63,6 +65,9 @@ const Education = () => {
               <CardContent className="ml-16">
                 <p className="text-foreground font-medium">{edu.institution}</p>
                 <p className="text-muted-foreground text-sm">{edu.location}</p>
+                {"specialization" in edu && edu.specialization && (
+                  <p className="text-sm text-muted-foreground mt-2 italic">{edu.specialization}</p>
+                )}
                 {edu.thesis && (
                   <p className="text-sm text-muted-foreground mt-2 italic">
                     {"thesisLink" in edu && edu.thesisLink ? (
