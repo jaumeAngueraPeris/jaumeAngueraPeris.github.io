@@ -9,7 +9,7 @@ const publications = [
     authors: "Jaume Anguera Peris, Songtao Cheng, Hanzhao Zhang, Wei Ouyang, Joakim Jaldén",
     journal: "IEEE Transactions on Neural Networks and Learning Systems",
     year: "2026",
-    type: "Journal (waiting to be accepted)",
+    type: "Journal (to be accepted)",
     link: "https://arxiv.org/abs/2512.14930"
   },
   {
