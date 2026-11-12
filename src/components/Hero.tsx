@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed text-balance">
+        <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-[1.8] text-balance">
           Researcher specializing in { SITE_CONFIG.thesis_lower }, with applications in communication systems and self-driving microscopy. More recently, my work has expanded toward developing and evaluating frontier agentic AI systems, with a growing interest in reliable AI for scientific discovery.
         </p>
 
