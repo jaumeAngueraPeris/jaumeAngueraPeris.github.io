@@ -13,12 +13,14 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-primary font-medium">
             PhD in { SITE_CONFIG.phd }
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            { SITE_CONFIG.university }, { SITE_CONFIG.location }
-          </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Wallenberg AI, Autonomous Systems and Software Program (WASP)
-          </p>
+          <div className="space-y-1">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              { SITE_CONFIG.university }, { SITE_CONFIG.location }
+            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Wallenberg AI, Autonomous Systems and Software Program (WASP)
+            </p>
+          </div>
         </div>
 
         <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed text-balance">
