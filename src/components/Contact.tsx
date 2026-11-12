@@ -18,7 +18,7 @@ const Contact = () => {
           <CardHeader>
             <CardTitle className="text-2xl">Contact Information</CardTitle>
             <CardDescription>
-              Available for academic collaboration, consulting, and speaking engagements
+              Open to discussing research, collaborations, and new opportunities
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
