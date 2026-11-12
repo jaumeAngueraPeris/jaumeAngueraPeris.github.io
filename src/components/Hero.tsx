@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, FileText, Github, Linkedin, BookOpen, GraduationCap, Presentation, Layers } from "lucide-react";
+import { Mail, FileText, Github, Linkedin, BookOpen, GraduationCap, Presentation, Layers, Users } from "lucide-react";
 import { SITE_CONFIG } from '../config.ts';
 
 const achievements = [
@@ -20,17 +20,9 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-primary font-medium">
             PhD in { SITE_CONFIG.phd }
           </p>
-          <div className="space-y-1">
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              { SITE_CONFIG.university }, { SITE_CONFIG.location }
-            </p>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Wallenberg AI, Autonomous Systems and Software Program (WASP)
-            </p>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Science for Life Laboratory (SciLifeLab)
-            </p>
-          </div>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            { SITE_CONFIG.university }, { SITE_CONFIG.location }
+          </p>
         </div>
 
         <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed text-balance">
@@ -51,6 +43,14 @@ const Hero = () => {
             </div>
           ))}
         </div>
+
+        <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+          <Users className="w-4 h-4 text-primary flex-shrink-0" />
+          <span>Research collaboration with</span>
+          <span className="font-medium text-foreground">Wallenberg AI, Autonomous Systems and Software Program (WASP)</span>
+          <span aria-hidden="true">·</span>
+          <span className="font-medium text-foreground">Science for Life Laboratory (SciLifeLab)</span>
+        </p>
 
         {/*
         <div className="flex flex-wrap justify-center gap-4 pt-4">
