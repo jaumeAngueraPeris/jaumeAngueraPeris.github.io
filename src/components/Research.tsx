@@ -1,38 +1,45 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Smartphone, Microscope } from "lucide-react";
+import { Brain, Microscope, Share2 } from "lucide-react";
 
 const researchAreas = [
   {
-    icon: Smartphone,
-    title: "Communication systems",
-    description: "Stochastic modelling and resource-dimensioning of large-scale multi-cell edge intelligent systems"
+    icon: Brain,
+    title: "Agentic AI & Autonomous Systems",
+    description: "Development and rigorous evaluation of frontier agentic AI systems, focusing on multi-step reasoning, planning, autonomous decision-making, and reliable task execution."
   },
   {
     icon: Microscope,
-    title: "Biotechnology",
-    description: "Restless multi-process multi-armed bandits for self-driving microscopes"
+    title: "AI for Scientific Discovery",
+    description: "Intelligent automation of scientific experiments through stochastic decision-making, adaptive resource allocation, and learning-based optimization, with applications to self-driving microscopy."
+  },
+  {
+    icon: Share2,
+    title: "Stochastic Modeling & Optimization",
+    description: "Mathematical modeling and optimization of large-scale, resource-constrained systems, leveraging probability theory, stochastic processes, and statistical methods to improve efficiency and reliability."
   }
 ];
 
 const Research = () => {
   return (
     <section id="research" className="py-20 px-4 bg-muted/30">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">Research Interests</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My research focuses on advancing communication systems and self-driving microscopes through innovative approaches and interdisciplinary methods.
+            My research explores the mathematical foundations, development, and evaluation of intelligent autonomous systems, spanning agentic AI, scientific experimentation, and stochastic optimization.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {researchAreas.map((area, index) => (
             <Card key={index} className="transition-all hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <area.icon className="w-6 h-6 text-primary" />
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <area.icon className="w-6 h-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-xl">{area.title}</CardTitle>
                 </div>
-                <CardTitle className="text-xl">{area.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed">
