@@ -46,7 +46,7 @@ const Education = () => {
         <div className="space-y-6">
           {education.map((edu, index) => (
             <Card key={index} className="transition-all hover:shadow-md">
-              <CardHeader>
+              <CardHeader className="pb-4">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-6 h-6 text-primary" />
