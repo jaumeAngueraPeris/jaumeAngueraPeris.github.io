@@ -40,7 +40,7 @@ const publications = [
     title: "Resource Dimensioning for Single-Cell Edge Video Analytics",
     authors: "Jaume Anguera Peris",
     journal: "IEEE International Conference on Communications",
-    year: "2022",
+    year: "2023",
     type: "Conference paper",
     link: "https://ieeexplore.ieee.org/document/10278760"
   },
@@ -56,7 +56,7 @@ const publications = [
     title: "Distributed Join-the-Shortest-Queue with Sparse and Unreliable Information Updates",
     authors: "Jaume Anguera Peris",
     journal: "IEEE International Conference on Communications",
-    year: "2021",
+    year: "2022",
     type: "Conference paper",
     link: "https://ieeexplore.ieee.org/document/9838596"
   },
