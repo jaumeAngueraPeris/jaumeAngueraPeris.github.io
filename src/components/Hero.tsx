@@ -29,7 +29,7 @@ const Hero = () => {
           Researcher specializing in { SITE_CONFIG.thesis_lower }, with applications in communication systems and self-driving microscopy. More recently, my work has expanded toward developing and evaluating frontier agentic AI systems, with a growing interest in reliable AI for scientific discovery.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 pt-8">
+        <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6 pt-8">
           {achievements.map((item) => (
             <div
               key={item.label}
@@ -38,7 +38,7 @@ const Hero = () => {
               <item.icon className="w-6 h-6 text-primary flex-shrink-0" />
               <div>
                 <p className="text-lg font-semibold text-foreground leading-tight">{item.value}</p>
-                <p className="text-sm text-muted-foreground leading-tight md:whitespace-nowrap">{item.label}</p>
+                <p className="text-sm text-muted-foreground leading-tight xl:whitespace-nowrap">{item.label}</p>
               </div>
             </div>
           ))}
