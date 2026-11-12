@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { Mail, FileText, Github, Linkedin, BookOpen, GraduationCap, Presentation, Layers, Users } from "lucide-react";
+import { BookOpen, GraduationCap, Presentation, Layers, Users } from "lucide-react";
 import { SITE_CONFIG } from '../config.ts';
 
 const achievements = [
@@ -51,28 +50,6 @@ const Hero = () => {
           <span aria-hidden="true">·</span>
           <span className="font-medium text-foreground">Science for Life Laboratory (SciLifeLab)</span>
         </p>
-
-        {/*
-        <div className="flex flex-wrap justify-center gap-4 pt-4">
-          <Button size="lg" className="gap-2">
-            <Mail className="w-5 h-5" />
-            Contact Me
-          </Button>
-          <Button size="lg" variant="outline" className="gap-2">
-            <FileText className="w-5 h-5" />
-            Download CV
-          </Button>
-        </div>
-
-        <div className="flex justify-center gap-4 pt-4">
-          <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10">
-            <Github className="w-5 h-5" />
-          </Button>
-          <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10">
-            <Linkedin className="w-5 h-5" />
-          </Button>
-        </div>
-        */}
       </div>
     </section>
   );
