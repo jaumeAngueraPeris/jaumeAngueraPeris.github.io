@@ -13,4 +13,10 @@ export const SITE_CONFIG = {
   thesis_lower: "stochastic modeling and optimization of large-scale and resource-constrained systems",
   thesis_upper: "Stochastic modeling and optimization of large-scale and resource-constrained systems",
   currentYear: new Date().getFullYear(),
+  stats: {
+    publications: "7+",
+    supervisedTheses: "10+",
+    teachingHours: "300+",
+    funding: "SEK 500,000",
+  },
 } as const;

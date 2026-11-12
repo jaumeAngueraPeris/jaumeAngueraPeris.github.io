@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { Mail, FileText, Github, Linkedin } from "lucide-react";
+import { Mail, FileText, Github, Linkedin, BookOpen, GraduationCap, Presentation, Layers } from "lucide-react";
 import { SITE_CONFIG } from '../config.ts';
+
+const achievements = [
+  { icon: BookOpen, value: SITE_CONFIG.stats.publications, label: "Publications" },
+  { icon: GraduationCap, value: SITE_CONFIG.stats.supervisedTheses, label: "Supervised MSc theses" },
+  { icon: Presentation, value: SITE_CONFIG.stats.teachingHours, label: "Teaching hours" },
+  { icon: Layers, value: SITE_CONFIG.stats.funding, label: "Competitive funding" },
+];
 
 const Hero = () => {
   return (
@@ -29,6 +36,21 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed text-balance">
           Researcher specializing in { SITE_CONFIG.thesis_lower }, with applications in communication systems and self-driving microscopy. More recently, my work has expanded toward developing and evaluating frontier agentic AI systems, with a growing interest in reliable AI for scientific discovery.
         </p>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
+          {achievements.map((item) => (
+            <div
+              key={item.label}
+              className="flex items-center gap-3 rounded-lg border bg-card p-4 text-left shadow-sm"
+            >
+              <item.icon className="w-6 h-6 text-primary flex-shrink-0" />
+              <div>
+                <p className="text-lg font-semibold text-foreground leading-tight">{item.value}</p>
+                <p className="text-sm text-muted-foreground leading-tight">{item.label}</p>
+              </div>
+            </div>
+          ))}
+        </div>
 
         {/*
         <div className="flex flex-wrap justify-center gap-4 pt-4">
