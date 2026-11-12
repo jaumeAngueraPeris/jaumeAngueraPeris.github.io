@@ -20,6 +20,9 @@ const Hero = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Wallenberg AI, Autonomous Systems and Software Program (WASP)
             </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Science for Life Laboratory (SciLifeLab)
+            </p>
           </div>
         </div>
 
