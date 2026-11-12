@@ -16,6 +16,9 @@ const Hero = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             { SITE_CONFIG.university }, { SITE_CONFIG.location }
           </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Wallenberg AI, Autonomous Systems and Software Program (WASP)
+          </p>
         </div>
 
         <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed">
