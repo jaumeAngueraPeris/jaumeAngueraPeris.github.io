@@ -25,7 +25,7 @@ const Research = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">Research Interests</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-5xl mx-auto text-balance">
             My research explores the mathematical foundations, development, and evaluation of intelligent autonomous systems, spanning agentic AI, scientific experimentation, and stochastic optimization.
           </p>
         </div>
