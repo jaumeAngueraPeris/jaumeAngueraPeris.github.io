@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
         <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-          Researcher specializing in { SITE_CONFIG.thesis_lower }. Passionate about advancing knowledge in communication systems and self-driving microscopes through innovative methodologies and interdisciplinary collaboration.
+          Researcher specializing in { SITE_CONFIG.thesis_lower }, with applications in communication systems and self-driving microscopy. More recently, my work has expanded toward developing and evaluating frontier agentic AI systems, with a growing interest in reliable AI for scientific discovery.
         </p>
 
         {/*
