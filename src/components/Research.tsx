@@ -5,17 +5,17 @@ const researchAreas = [
   {
     icon: Brain,
     title: "Agentic AI & Autonomous Systems",
-    description: "Development and rigorous evaluation of frontier agentic AI systems, focusing on multi-step reasoning, planning, autonomous decision-making, and reliable task execution."
+    description: "Development and evaluation of frontier agentic AI systems, focusing on multi-step reasoning, planning, autonomous decision-making, and reliable task execution."
   },
   {
     icon: Microscope,
     title: "AI for Scientific Discovery",
-    description: "Intelligent automation of scientific experiments through stochastic decision-making, adaptive resource allocation, and learning-based optimization, with applications to self-driving microscopy."
+    description: "Intelligent automation of scientific experiments through stochastic decision-making, adaptive resource allocation, and learning-based optimization, with applications to smart microscopy."
   },
   {
     icon: Share2,
     title: "Stochastic Modeling & Optimization",
-    description: "Mathematical modeling and optimization of large-scale, resource-constrained systems, leveraging probability theory, stochastic processes, and statistical methods to improve efficiency and reliability."
+    description: "Mathematical modeling and optimization of large-scale and resource-constrained systems, leveraging probability theory, stochastic processes, and statistical methods to improve efficiency and reliability."
   }
 ];
 
