@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { BookOpen, GraduationCap, Presentation, Layers, Users } from "lucide-react";
 import { SITE_CONFIG } from '../config.ts';
 
@@ -15,13 +14,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto text-center space-y-8 animate-fade-in">
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground">
-            {SITE_CONFIG.name.split(" ").map((word, index) => (
-              <Fragment key={word}>
-                {index > 0 && <br className="md:hidden" />}
-                {index > 0 && " "}
-                {word}
-              </Fragment>
-            ))}
+            {SITE_CONFIG.name}
           </h1>
           <p className="text-xl md:text-2xl text-primary font-medium">
             PhD in { SITE_CONFIG.phd }
